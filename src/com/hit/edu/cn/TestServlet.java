@@ -11,6 +11,5 @@ public class TestServlet extends HttpServlet{
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("utf-8");
-        resp.getWriter().write("my servlet");
     }
 }
